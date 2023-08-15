@@ -1,0 +1,66 @@
+/* inicio ajustes globais */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+/* fim ajustes globais */
+
+/* inicio ajustes header */
+
+h1 {
+    font-family: 'Inconsolata', monospace;
+    font-size: 2.4rem;
+    padding: 4rem 7.7rem;
+    line-height: 2.5rem;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+/* fim ajustes header */
+
+/* inicio ajustes conteudo principal */
+
+.mainContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+    gap: 10rem;
+}
+
+.imagem {
+    text-align: center;
+}
+
+.imagem img {
+    max-width: 100%;
+    width: 54rem;
+    height: auto;
+}
+
+h2 {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 6.4rem;
+    line-height: 9.4rem;
+    width: 60rem;
+    height: 19rem;
+}
+
+p {
+    font-family: 'Space Mono', monospace;
+    font-size: 2.4rem;
+    line-height: 3.5rem;
+    width: 38rem;
+    height: 10rem;
+}
+
+/* fim ajustes conteudo principal */
